@@ -597,3 +597,32 @@
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
+/* =============== back to top ============= */
+.intro-copy {
+    padding: 1em;
+    margin: 3em auto;
+    max-width: 437px;
+    font-size: 2em;
+    line-height: 1.2;
+    font-weight: lighter;
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    bottom: 5px;
+    display: inline-block;  
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #2b369b;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .back-to-top:hover {
+    cursor: pointer;
+  }
+  .top-b{
+    padding-left: 14px;
+    padding-top: 15px;
+    font-size: 30px;
+  }

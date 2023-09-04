@@ -26,13 +26,18 @@
       referrerpolicy="no-referrer"/>
     <!-- ============ font link ============== -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-      <!-- ======================== jquery link =============== -->
-      <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <!-- ======================== jquery link =============== -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <!-- =================== aos link ==================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
   </head>
   <body>
 <!-- ================== navbar ================ -->
         <nav>
-                <div class="box1 d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                <div class="box1 d-xl-block d-lg-block d-md-block d-sm-none d-none ">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-8 col-lg-8 col-md-8  col-sm-8 col-8  call-nav ">
@@ -54,7 +59,7 @@
 <!-- ==================== header =================== -->
         <header>
               <nav class="
-               navbar navbar-expand-lg navbar-light bg-light ">      
+               navbar navbar-expand-lg navbar-light bg-light">      
                 <div class="container">
                   <a class="navbar-brand" href="#">
                     <img src="./img/logo.png" alt="" height="81px" width="186px">
@@ -157,12 +162,12 @@
           <div class="row">
                   <div class="col-6 col-xl-6 col-lg-12  col-md-12 col-sm-12 col-12">
                       <div class="who-img">
-                        <img class="img-fluid" src="./img/docotor-about.jpg" alt="" height="420px" width="580px">
+                        <img class="img-fluid" src="./img/docotor-about.jpg" alt="" height="420px" width="580px" data-aos="fade-right">
                       </div>
                   </div>
                   <div class="col-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <p class="wh-text1">Who We Are</p>
-                    <p class="wh-text2">We are Achieve the Success of Treatment</p>
+                    <p class="wh-text2" data-aos="fade-left">We are Achieve the Success of Treatment</p>
                     <p class=" wh-text3 col-lg-12 col-md-12 col-sm-12 col-12">We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.It is not the employer who pays the wages. Employers only handle the money. It is the customer who pays the wagesWe see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect.</p>
 
                     <button class="ban-btn">Read more <i class="fa fa-arrow-right ban-right" style="color: #ffffff;"></i></button>
@@ -176,7 +181,7 @@
                       <div class="row">
                             <div class="col-12 ">
                               <p class="ser-text1 text-center">OUR SERVICES</p>
-                              <p class="ser-text2 text-center">Our Special Services For You</p>
+                              <p class="ser-text2 text-center" data-aos="fade-up-left">Our Special Services For You</p>
                               <div class="set-text-m">
                                 <p class="ser-text3 text-center ">Fusce pharetra odio in urna laoreet laoreet. Aliquam erat volutpat. Phasellus nec ligula arcu. Aliquam eu urna pulvinar, iaculis ipsum in, porta massa.</p>
                               </div>
@@ -185,28 +190,28 @@
                       <div class="ser-box">
                         <div class="row">
                           <div class="col-3 col-lg-3 col-md-6 col-sm-12 col-12 box-ser">
-                              <div class="ser-box1">
+                              <div class="ser-box1" data-aos="zoom-in-right">
                                     <img class="ser-ab" src="./img/ambulance-1.png" alt="" height="70px" width="70px">
                               </div>
                               <p class="ser-text4">Online Emergency</p>
                               <p class="ser-text5">Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis vestibulum eget orci maximus pretium.</p>
                           </div>
                           <div class="col-3 col-lg-3 col-md-6 col-sm-12 col-12 box-ser">
-                            <div class="ser-box1">
+                            <div class="ser-box1" data-aos="zoom-out-down">
                               <img class="ser-ab" src="./img/beby.png" alt="" height="70px" width="70px">
                             </div>
                             <p class="ser-text4">Child Care</p>
                             <p class="ser-text5">Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis vestibulum eget orci maximus pretium.</p>
                           </div>
                           <div class="col-3 col-lg-3 col-md-6 col-sm-12 col-12 box-ser">
-                            <div class="ser-box1">
+                            <div class="ser-box1" data-aos="zoom-in-up">
                               <img class="ser-ab" src="./img/note-1.png" alt="" height="70px" width="70px">
                             </div>
                             <p class="ser-text4">Medication Services</p>
                              <p class="ser-text5">Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis vestibulum eget orci maximus pretium.</p>
                           </div>
                           <div class="col-3 col-lg-3 col-md-6 col-sm-12 col-12 box-ser">
-                            <div class="ser-box1">
+                            <div class="ser-box1" data-aos="zoom-in-left">
                               <img class="ser-ab" src="./img/24-hr.png" alt="" height="70px" width="70px">
                             </div>
                             <p class="ser-text4">24 hr Health Program </p>
@@ -222,23 +227,23 @@
           <div class="main-about">
             <div class="row">
               <div class="col-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
-                  <div class="ab-img">
+                  <div class="ab-img" data-aos="fade-right">
                       <img class="img-fluid" src="./img/bedroom.jpg" alt="" height="450px" width="580px">
                   </div>
               </div>
               <div class="col-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                 <p class="ab-text1">About us</p>
-                <p class="ab-text2">We are Achieve the Success of Treatment</p>
+                <p class="ab-text2"data-aos="fade-left">We are Achieve the Success of Treatment</p>
                 <p class=" ab-text3 col-lg-12 col-md-12 col-sm-12 col-12">We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.It is not the employer who pays the wages. Employers only handle the money. It is the customer who pays the wagesWe see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect.</p>
-                <div class="ab-du">
+                <div class="ab-du" data-aos="fade-up-left">
                   <i class="fa-sharp fa-solid fa-circle du-1" style="color: #2b369b;"></i>
                   <p class="ab-text4">Pellentesque placerat, nisi congue vehicula efficitur.</p>
                 </div>
-                <div class="ab-du">
+                <div class="ab-du" data-aos="fade-up-right">
                   <i class="fa-sharp fa-solid fa-circle du-1" style="color: #2b369b;"></i>
                   <p class="ab-text4">Pellentesque placerat, nisi congue vehicula efficitur.</p>
                 </div>
-                <div class="ab-du">
+                <div class="ab-du" data-aos="fade-up-left">
                   <i class="fa-sharp fa-solid fa-circle du-1" style="color: #2b369b;"></i>
                   <p class="ab-text5">Phasellus mattis vitae magna in suscipit. Nam tristique posuere sem, mattis molestie est bibendum.</p>
                 </div>
@@ -252,13 +257,13 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p class="md-text1 text-center">Medical Departments</p>
+            <p class="md-text1 text-center" data-aos="zoom-in">Medical Departments</p>
           </div>
         </div>
         <div class="md">
               <div class="row ">
                 <div class="col-3 col-xl-3  col-lg-6 col-md-6 col-sm-12 col-12">                      
-                  <div class="md-box1">
+                  <div class="md-box1" data-aos="zoom-out-right">
                       <img class="md-img1" src="./img/fefsa.png" alt="" height="85px" width="100px">
                       <p class="md-text2 text-center">Pulmonology</p>
                       <div class="md-text">
@@ -268,7 +273,7 @@
                   </div>      
                 </div>
                 <div class="col-3 col-xl-3  col-lg-6 col-md-6 col-sm-12 col-12">
-                  <div class="md-box1">
+                  <div class="md-box1" data-aos="fade-up-right">
                     <img class="md-img2" src="./img/sound-1.png" alt="" height="100px" width="100px">
                     <p class="md-text2 text-center">Gynecology</p>
                     <div class="md-text">
@@ -278,7 +283,7 @@
                 </div>
                 </div>
                 <div class="col-3 col-xl-3  col-lg-6 col-md-6 col-sm-12 col-12">
-                  <div class="md-box1">
+                  <div class="md-box1" data-aos="fade-up-left">
                     <img class="md-img2" src="./img/brain 1.png" alt="" height="100px" width="100px">
                     <p class="md-text2 text-center">Neurology</p>
                     <div class="md-text">
@@ -288,7 +293,7 @@
                 </div>
                 </div>
                 <div class="col-3 col-xl-3  col-lg-6 col-md-6 col-sm-12 col-12 g-col-6">
-                  <div class="md-box1">
+                  <div class="md-box1" data-aos="fade-left">
                     <img class="md-img3" src="./img/heart 1.png" alt="" height="120px" width="120px">
                     <p class="md-text2 text-center">Cardiology</p>
                     <div class="md-text">
@@ -307,8 +312,8 @@
           <div class="container">
               <div class="row">
                     <div class="col-12 col-lg-12 col-md-12 col-sm-12">
-                            <p class="sub-text1">How Can We Help You?</p>
-                            <p class="sub-text2">Make An Appointment For Emergency</p>
+                            <p class="sub-text1" data-aos="flip-left">How Can We Help You?</p>
+                            <p class="sub-text2" data-aos="flip-right">Make An Appointment For Emergency</p>
                             <div class="sub-text">
                               <p class="sub-text3 d-md-block d-sm-none d-none">Our Office provides the services of the pediatrician and consultants, 
                                 covering all fields of Pediatrics, ultrasound examination and laboratory analyses. Consulting team members include physicians 
@@ -326,50 +331,50 @@
             <div class="row">
               <div class=" col-12">
                   <p class="our-text1 text-center">Our Doctor</p>
-                  <p class="our-text2 text-center">Our Dedicated Doctors Team</p>
+                  <p class="our-text2 text-center" data-aos="zoom-in">Our Dedicated Doctors Team</p>
               </div>
             </div>
          <div class="our-main-box">
           <div class="row">
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 ">
-                <div class="our-box1">
+                <div class="our-box1" data-aos="zoom-out-right">
                   <figure>
                     <img class="our-img" src="./img/doctor-1.png" alt="" >
                   </figure>
-                  <div class="our-box3">
+                  <div class="our-box3" data-aos="fade-up-left">
                       <p class="our-text3 text-center">Dr. Morali Wood</p>
                       <p class="our-text4 text-center">Senior Dr. at Gynecology </p>
                   </div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
-              <div class="our-box1">
+              <div class="our-box1" data-aos="fade-up-right">
                 <figure>
                   <img class="our-img" src="./img/doctor-2.png" alt="" >
                 </figure>
-                <div class="our-box3">
+                <div class="our-box3" data-aos="fade-up-left">
                     <p class="our-text3 text-center">Dr. Marc Patel</p>
                     <p class="our-text4 text-center">Senior Dr. at Delmont</p>
                 </div>
               </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
-              <div class="our-box1">
+              <div class="our-box1" data-aos="fade-left">
                 <figure>
                   <img class="our-img3" src="./img/doctor-3.png" alt="" >
                 </figure>
-                <div class="our-box3">
+                <div class="our-box3" data-aos="fade-up-right">
                     <p class="our-text3 text-center">Dr. Manshi  Wood</p>
                     <p class="our-text4 text-center">Senior Dr. at Neurology </p>
                 </div>
               </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
-              <div class="our-box1">
+              <div class="our-box1" data-aos="fade-left">
                 <figure>
                   <img class="our-img4" src="./img/doctor-4.png" alt="" >
                 </figure>
-                <div class="our-box3">
+                <div class="our-box3" data-aos="fade-up-right">
                     <p class="our-text3 text-center">Dr. Ayushi Wood</p>
                     <p class="our-text4 text-center">Senior Dr. at Delmont </p>
                 </div>
@@ -385,12 +390,12 @@
       <div class="row">
         <div class="col-12">
             <p class="test-text1 text-center">  Testimonial</p>
-            <p class="test-text2 text-center">What Our Clients Say</p>
+            <p class="test-text2 text-center"  data-aos="zoom-in">What Our Clients Say</p>
         </div>
        </div>
       <div class="row justify-content-center">
         <div class="col-xl-5 col-lg-6 col-md-6 col-12">
-          <div class="card text-center test-box">
+          <div class="card text-center test-box" data-aos="flip-right">
             <img src="./img/quote.png" alt="" height="70px" width="70px" class="test-img">
             <div class="card-body px-5">
               <div class="test-box01">
@@ -403,7 +408,7 @@
           </div>
         </div>
         <div class="col-xl-5 col-lg-6 col-md-6 col-12">
-          <div class="card text-center test-box">
+          <div class="card text-center test-box" data-aos="flip-left">
           <img src="./img/quote.png" alt="" height="70px" width="70px" class="test-img">
             <div class="card-body px-5">
               <div class="test-box01">
@@ -425,12 +430,12 @@
             <div class="row">
                 <div class="col-12">
                     <p class="bl-text1 text-center">OUR BLOG</p>
-                    <p class="bl-text2 text-center">Recent Articles and News</p>
+                    <p class="bl-text2 text-center" data-aos="zoom-in">Recent Articles and News</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                    <div class="card blog-box1">
+                    <div class="card blog-box1" data-aos="fade-right">
                       <img src="./img/blog-1.jpg" class="card-img-top" alt="...">
                       <div class="card-body px-4">
                         <p class="blog-text3">Praesent convallia</p>
@@ -449,7 +454,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 " data-aos="fade-down">
                   <div class="card blog-box1">
                     <img src="./img/blog-2.jpg" class="card-img-top" alt="...">
                     <div class="card-body px-4">
@@ -471,7 +476,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-aos="fade-left">
                   <div class="card blog-box1 d-lg-block d-md-none d-sm-block">
                     <img src="./img/blog-3.jpg" class="card-img-top" alt="...">
                     <div class="card-body px-4">
@@ -502,19 +507,19 @@
               <div class="row">
                   <div class="col-xl-12">
                           <p class="ga-text1 text-center">Feature's Galley</p>
-                           <p class="bl-text2 text-center">Latest Case Studies</p>
+                           <p class="bl-text2 text-center" data-aos="zoom-in">Latest Case Studies</p>
                   </div>
                   <div class="row">
-                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-right">
                           <img src="./img/pic-1.jpg" class="img-fluid pic1" alt="">
                       </div>
-                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="zoom-out-up">
                         <img src="./img/pic-2.jpg" class="img-fluid pic1" alt="">
                       </div>
-                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="zoom-out-down">
                         <img src="./img/pic-3.jpg" class="img-fluid pic1" alt="">
                       </div>
-                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="zoom-in-left">
                         <img src="./img/pic-4.jpg" class="img-fluid pic1" alt=""> 
                       </div>
                   </div>
@@ -526,19 +531,19 @@
       <div class="container">
             <div class="logo">
                   <div class="row">
-                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12"  data-aos="fade-up" data-aos-duration="3000">
                             <img src="./img/logo-1.png" class="img-fluid pic1" alt="" height="115px" width="258px">
                       </div>
-                      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 ">
+                      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                         <img src="./img/logo-2.png" class="img-fluid pic1" alt="" height="137px" width="132px">
                       </div>
-                      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12">
+                      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
                         <img src="./img/logo-3.png" class="img-fluid pic1" alt="" height="137px" width="181px">
                       </div>
-                      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12">
+                      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                         <img src="./img/logo-4.png" class="img-fluid pic1" alt="" height="153px" width="212px">
                       </div>
-                      <div class="col-xl-3 col-lg-3 col-sm-12 d-lg-block d-md-none d-sm-block">
+                      <div class="col-xl-3 col-lg-3 col-sm-12 d-lg-block d-md-none d-sm-block" data-aos="fade-up" data-aos-duration="3000" >
                         <img src="./img/logo-5.png" class="img-fluid pic1" alt="" height="117px" width="262px">
                       </div>
                   </div>
@@ -698,5 +703,31 @@
           </div>
       </div>
   </section>
+<!-- ================= back to top ============ -->
+<div class="back-to-top"><i class="fa-solid fa-chevron-up fa-beat top-b" style="color: #ffffff;"></i></div>
   </body>
-</html>     
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html> 
+  <!--=================== back js link ===================  -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <script>
+    var $backToTop = $(".back-to-top");
+$backToTop.hide();
+
+
+$(window).on('scroll', function() {
+  if ($(this).scrollTop() > 100) {
+    $backToTop.fadeIn();
+  } else {
+    $backToTop.fadeOut();
+  }
+});
+
+$backToTop.on('click', function(e) {
+  $("html, body").animate({scrollTop: 0}, 500);
+});
+  </script>
