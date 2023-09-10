@@ -704,7 +704,7 @@
       </div>
   </section>
 <!-- ================= back to top ============ -->
-<div class="back-to-top"><i class="fa-solid fa-chevron-up fa-beat top-b" style="color: #ffffff;"></i></div>
+<div class="box d-xl-block d-lg-none d-md-none d-sm-none d-none"><i class="fa-solid fa-chevron-up top-b" style="color: #ffffff;"></i></div>
   </body>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
@@ -712,22 +712,28 @@
   </script>
 </html> 
   <!--=================== back js link ===================  -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+         $(window).scroll(function(){
+                if($(this).scrollTop()> 0)
+                {
+                    $(".box").show()
+                }else{
+                    $(".box").hide()
+                }
+            });
 
-  <script>
-    var $backToTop = $(".back-to-top");
-$backToTop.hide();
-
-
-$(window).on('scroll', function() {
-  if ($(this).scrollTop() > 100) {
-    $backToTop.fadeIn();
-  } else {
-    $backToTop.fadeOut();
+            $(".box").click(function(){
+                $(window).scrollTop(0)
+            })
+       
+</script>
+<script>
+    $(window).scroll(function() {
+if ($(this).scrollTop() > 0){  
+    $('.box1').addClass("sticky");
+  }
+  else{
+    $('.box1').removeClass("sticky");
   }
 });
-
-$backToTop.on('click', function(e) {
-  $("html, body").animate({scrollTop: 0}, 500);
-});
-  </script>
+</script>
