@@ -1,0 +1,623 @@
+ *{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ========= navbar ====== */
+ .box1{
+    width: 100%;
+    height: 50px;
+    background-color:#2b369b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.call-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-text1{
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif;    
+    padding-left: 13px;
+    padding-top: 14px;
+    cursor: pointer;
+}
+ .email-nav{
+    padding-left: 20px;
+} 
+.nav-icon1 {
+    font-size: 18px;
+    padding-right: 18px; 
+ } 
+ .pin{
+    font-size: 20px;
+} 
+/* =================== header ============= */
+.box2{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(244, 243, 243);
+}
+.btn-hed{
+    width: 90px;
+    height: 40px;
+    border-radius: 12px;
+    background-color:#2b369b;
+    color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;}
+.btn-hed:hover{
+    background-color: #ff0000;
+    transition-delay: 0.3s;
+}
+.navbar .navbar-nav .nav-item a{
+    font-size: 16px;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;   
+}
+.navbar .navbar-nav .nav-item{
+    padding-right: 10px;
+}
+/* ========== banner ========= */
+.right-next{
+    font-size: 25px;
+    padding-left: 50%;
+}
+.left-next{
+    font-size: 25px;
+    padding-right: 50%;
+}
+.ban-text1{
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+}
+.ban-text2{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;    
+    width: 550px;
+}
+.ban-btn{
+    height: 50px;
+    width: 150px;
+    background-color: #2b369b;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif;      
+    font-weight: 600;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ban-btn:hover{
+    background-color: #ff0000;
+    transition-delay: 0.3s;
+}
+.ban-right{
+    padding-left: 12px;
+}
+/* ========== who are you ========= */
+.wh-text1{
+    font-size: 18px;
+    color: #2b369b;
+    font-family: 'Roboto', sans-serif;    
+    padding-top: 39px;  
+}
+.wh-text2{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;    
+    font-weight: 700;
+
+}
+.wh-text3{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;    
+    width: 500px;
+    color: #6F6F6F;
+}
+.who1{
+  margin-top: 80px;
+}
+/* =========================== OUR SERVICES =================== */
+.ser-text1{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;    
+    color: #2b369b;
+    padding-top: 80px;
+}
+.ser-text2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;    
+}
+.ser-text3{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 725px;
+}
+.set-text-m{
+    display: flex;
+    justify-content: center;
+}
+.ser-box{
+    margin-top: 30px;
+}
+.ser-box1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ser-ab{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.ser-text4{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+.ser-text5{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.box-ser{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ====================== About us ============ */
+.main-about{
+    margin-top: 80px;
+}
+.ab-text1{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;    
+    color: #2b369b;
+    padding-top: 39px; 
+}
+.ab-text2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; 
+}
+.ab-text3{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;    
+    width: 500px;
+    color: #6F6F6F;
+}
+.ab-du{
+  display: flex;
+  align-items: baseline;
+}
+.du-1{
+   font-size: 15px;
+}
+.ab-text4{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;    
+    padding-left: 12px;
+}
+.ab-text5{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;    
+    padding-left: 12px;
+    width: 500px;
+}
+/* ==================== Medical Departments ================== */
+.md-text1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 80px;
+}
+.md-box1{
+    height: 435px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 30px;
+}
+.md-img1{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.md-img2{
+    margin-left: 100px;
+    margin-top: 65px;
+}
+.md-img3{
+    margin-left: 100px;
+    margin-top: 45px;
+}
+.md-text2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif; 
+    padding-top: 18px;
+}
+.md-text3{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+    width: 250px;
+}
+.md-text{
+    display: flex;
+    justify-content: center;
+}
+.md-btn{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+/* ========================= How Can We Help You ================== */
+.sub-img{
+    background-image: url(./img/sub\ banner.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.527);
+    background-blend-mode: darken;
+    margin-top: 80px;
+}
+.sub-text1{
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    padding-top: 80px;
+}
+.sub-text2{
+    font-size: 36px;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 600;
+    text-align: center;
+}
+.sub-text3{
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    width:650px;
+    
+}
+.sub-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* ============================ Our Doctor =============== */
+.our-text1{
+    font-size: 20px;
+    color: #2b369b;
+    font-family: 'Roboto', sans-serif; 
+    padding-top: 80px;
+}
+.our-text2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; 
+
+}
+.our-box1{
+    height: 435px;
+    width: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding-top: 21px;
+    padding-left: 15px;
+    position: relative;
+}
+.our-box3{
+    height: 60px;
+    width: 300px;
+    background-color: #2b369b; 
+    position: absolute;
+    left: 0;
+    top: 70%;
+}
+.our-img{
+    position: absolute;
+    height: 414px;
+    width: 273px;
+}
+.our-img:hover{
+    transform: scale(1.01);
+    transition-duration: calc(0.9s);
+    overflow: hidden;
+}
+.our-img3{
+    position: absolute;
+    height: 386px;
+    width: 270px;
+    top: 49px;
+}
+.our-img3:hover{
+    transform: scale(1.01);
+    transition-duration: calc(0.9s);
+    overflow: hidden;
+}
+.our-img4{
+    position: absolute;
+    height: 386px;
+    width: 273px;
+    top: 49px;
+}
+.our-img4:hover{
+    transform: scale(1.01);
+    transition-duration: calc(0.9s);
+    overflow: hidden;
+}
+.our-text3{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; 
+    padding-top: 2px;
+}
+.our-text4{
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+}
+.our-box3 p{
+    margin-bottom: 0px !important;
+    margin-right: 0px !important;
+}
+/* ===================  Testimonial ================ */
+.test-ban{
+    background-color: #2b369b;
+    height: 100%;
+    margin-top: 80px;  
+}
+.test-ban .card{
+    margin: 50px 0;
+}
+.test-text1{
+    font-size: 20px;
+    color:white;
+    font-family: 'Roboto', sans-serif; 
+    padding-top: 80px;
+    text-transform:uppercase;
+}
+.test-text2{
+    font-size: 36px;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 600;
+}
+.test-box01 img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+.test-text3{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+    padding-top: 15px;
+}
+.test-text4{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; 
+    padding-top: 12px;
+}
+.test-text5{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #2b369b; 
+    padding-top: 8px;
+}
+.card-body p{
+    margin-bottom: 0px !important;
+}
+.test-box{
+    position: relative;
+}
+.test-img{
+    position: absolute;
+    right: 10px;
+}
+/* ======================== OUR BLOG ==================== */
+.bl-text1{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 80px;
+    color: #2b369b;
+}
+.bl-text2{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.blog-box1{
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 30px;
+}
+.blog-text3{
+    font-size: 24px ;
+    font-family: 'Roboto', sans-serif;
+}
+.bl-text4{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 12px;
+}
+.bl-text5{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+.bl-user{
+    font-size: 20px;
+}
+/* ==================== Feature's Galley ================= */
+.ga-text1{
+    font-size: 20px;
+    color: #2b369b;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+.pic1{
+    margin-top: 30px;
+}
+/* ======================= logo =============== */
+.logo{
+    margin-top: 80px;
+}
+/* ================== HOW FIND US ============= */
+.how{
+    background-color: #2b369b;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+.how-text1{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 80px;
+}
+.how-text2{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.how-t{
+    display: block;
+}
+.how-text3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 30px
+}
+.how-text4{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.how-text5{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+.how-name{
+    margin-top: 30px;
+}
+.how-name1{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+/* ======================== fotter ===================== */
+.footer{
+    background-color: #d3d3d341;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+.main-footer{
+    padding-top: 80px;
+}
+.f-text1{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+}
+.f-text2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #2b369b;
+}
+.f-icon{
+    display: flex;
+    gap: 20px;
+}
+.f-text3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-top: 6px;
+}
+.f-text4{
+    font-size: 14px;
+    color: #2b369b;
+    font-family: 'Roboto', sans-serif;
+}
+.map{
+    display: flex;
+    gap: 15px;
+    align-items: baseline;
+    padding-top: 50px;
+}
+.f-call{
+    display: flex;
+    gap: 15px;
+    align-items: baseline; 
+}
+.f-call0{
+    display: flex;
+    flex-direction: column;
+}
+.f-call0 p{
+    margin-bottom: 0px !important;
+}
+.f-email{
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+}
+.f-a{
+    padding-top: 50px;
+}
+.f-btn{
+    background-color: white;
+    height: 50px;
+}
+.f-link{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+/* =============== back to top ============= */
+.box {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:#2b369b;
+    color: white;
+    font-size: 24px;
+    padding-top: 8px;
+    padding-left: 12px;
+    position: fixed;
+    right: 10px;
+    top: 90%;
+    cursor: pointer;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px ;
+  }
+  .go-top:hover {
+      transition: all .4s linear;
+      transform: scale(1.1);
+  }
+  .top-b{
+    font-size: 24px;
+  }
